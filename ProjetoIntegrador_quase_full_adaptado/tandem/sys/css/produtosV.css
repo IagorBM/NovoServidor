@@ -1,0 +1,86 @@
+/* Card principal */
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Imagem */
+.card img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Agrupamento do texto + contador de vendas */
+.card-info {
+  display: flex;
+  flex-direction: row;       /* Alinha "texto-produto" e "contador-vendas" lado a lado */
+  justify-content: space-between;
+  flex: 1;
+}
+
+/* Bloco de texto do produto */
+.texto-produto {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Contador de vendas */
+.contador-vendas {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-start;    /* Alinha no topo; mude se quiser outro posicionamento */
+  color: #333;
+}
+
+/* Nome do produto */
+#nome {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Preço */
+#preco {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Descrição */
+#descricaoCard {
+  font-size: 14px;
+  color: #333;
+  text-align: justify;
+  line-height: 1.4em;
+}
+
+/* Avaliação */
+.avaliacao {
+  font-size: 20px;
+  color: gold;
+}
+
+.estrela {
+  font-size: 22px;
+  padding: 2px;
+}
+
+.estrela.cheia {
+  color: gold;
+}
+
+.estrela.vazia {
+  color: lightgray;
+}

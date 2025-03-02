@@ -1,0 +1,16 @@
+  #barPesquisa {
+    width: 100%;
+  }
+
+  .produtos {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column; /* Organiza os cards verticalmente */
+    align-items: center; /* Centraliza os cards na tela */
+    gap: 20px; /* Espaço entre os cards */
+  }
+  
