@@ -37,8 +37,8 @@ if ($_SESSION['Login'] == FALSE) {
             <!-- The sidebar -->
             <div class="sidebar">
                 <a class="active" href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
+                <a href="perfil.html">Perfil</a>
+                <a href="#contact">Chats</a>
                 <a href="#about">About</a>
                 <a href="sair.php">Logout</a>
             </div>

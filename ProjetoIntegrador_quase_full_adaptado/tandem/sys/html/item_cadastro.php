@@ -13,8 +13,8 @@
 <body>
     <header>
         <div class="navbar2">
+            <a href="vendedortemp.php"><img src="../imagens/voltar.png" width="40px" ></a>
             <div class="logos">Tandem &copy;</div>
-            <a href="vendedortemp.php">Voltar</a>
         </div>
     </header>
 
@@ -31,21 +31,21 @@
         <div class="image-container">
 
             <a class="box" href="#content1" id="linkP">
-                <img class="img1" src="prod.png" alt="Produtos">
+                <img class="img1" src="../imagens/prod.png" alt="Produtos">
                 <h3>Produtos</h3>
                 <p>Produtos em geral, como jóias, pulseiras, acessórios, sapatos, artigos decorativos, etc.</p>
             </a>
 
 
             <a  class="box" href="#content2" id="linkC">
-                <img src="alimentos2.png" alt="Produto 2">
+                <img src="../imagens/alimentos2.png" alt="Produto 2">
                 <h3>Alimentos</h3>
                 <p>Pães de forma, sucos naturais, feiras, verduras, salgados e doces.</p>
             </a>
 
 
             <a  class="box" href="#content3" id="linkS">
-                <img src="servicos2.png" alt="Produto 3">
+                <img src="../imagens/servicos2.png" alt="Produto 3">
                 <h3>Serviços</h3>
                 <p>Trabalhos de Jardinagem, limpeza, trabalhos temporários, entre outros.</p>
             </a>

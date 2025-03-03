@@ -21,7 +21,7 @@
 }
 
 #content1 {
-    background: green;
+    background: rgb(128, 0, 111);
     color: white;
     padding: 5em;
 }
@@ -33,7 +33,7 @@
 }
 
 #content3 {
-    background: black;
+    background: rgb(255, 0, 0);
     color: white;
     padding: 5em;
 }
